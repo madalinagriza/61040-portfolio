@@ -5,6 +5,7 @@ This will be your portfolio repository. Use this as a [template repository](http
 *My name is Amber Horvath, I'm a postdoctoral associate researching code comprehension interventions, it's nice to meet you! [Here is a link to my real website.](https://amberhorvath.com)
 Now you should write something about yourself here!*
 
+*My name is Madalina Griza. I am a senior majoring in 6-3!*
 Some fun facts about me:
 1. I love hockey.
 2. I do pottery.
