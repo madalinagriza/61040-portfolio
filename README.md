@@ -2,17 +2,12 @@
 This will be your portfolio repository. Use this as a [template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository) and customize it to your own tastes. We gave you a starting point with a space to describe yourself and a link to where your assignment 1 file can be.
 
 # About Me
-*My name is Amber Horvath, I'm a postdoctoral associate researching code comprehension interventions, it's nice to meet you! [Here is a link to my real website.](https://amberhorvath.com)
-Now you should write something about yourself here!*
+My name is Madalina Griza. I am a senior majoring in 6-3. I am from the [Republic of Moldova](https://en.wikipedia.org/wiki/Moldova).
 
-*My name is Madalina Griza. I am a senior majoring in 6-3!*
-Some fun facts about me:
-1. I love hockey.
-2. I do pottery.
-3. I have an extra bone in my right foot.
+*I really like taking pictures of clouds. Here's one!*
+![picture of clouds](assets/clouds.jpg)
 
-![picture of snow leopard mama and baby](https://pbs.twimg.com/media/GzYlia3XMAAWfm4?format=jpg&name=4096x4096)
-
-
+For this class I want to learn more about what is good design, and apply it both in class and in my future SWE work. 
 # Table of Contents
-[Link to Assignment 1](assignments/assignment1.md)
+- [Link to Assignment 1](assignments/assignment1.md)
+- [Link to Assignment 2](assignments/assignment2.md)
