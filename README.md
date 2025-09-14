@@ -10,4 +10,5 @@ My name is Madalina Griza. I am a senior majoring in 6-3. I am from the [Republi
 For this class I want to learn more about what is good design, and apply it both in class and in my future SWE work. 
 # Table of Contents
 - [Link to Assignment 1](assignments/assignment1.md)
+- [Link to Problemset 1](assignments/problemset1.md)
 - [Link to Assignment 2](assignments/assignment2.md)
