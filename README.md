@@ -11,4 +11,5 @@ For this class I want to learn more about what is good design, and apply it both
 # Table of Contents
 - [Link to Assignment 1](assignments/assignment1.md)
 - [Link to Problemset 1](assignments/problemset1.md)
+- [Link to Problemset 2](assignments/problemset2.md)
 - [Link to Assignment 2](assignments/assignment2.md)
