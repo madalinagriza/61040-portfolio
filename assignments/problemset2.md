@@ -1,9 +1,9 @@
 # Concept Questions
 
-1. **Contexts:** Contexts allow for identical nonces to be generated across different contexts. Uniqueness is therefore enforced in the context scope, and not globally across all contexts. For urlShortening, the domains will be contexts, therefore we can have a <ins>bit.ly/short</ins> link and a <ins>yellkey.com/short</ins> link. 
+1. **Contexts:** Contexts allow for identical nonces to be generated across different contexts. Uniqueness is therefore enforced in the context scope, and not globally across all contexts. For UrlShortening, the domains will be contexts, therefore we can have a <ins>bit.ly/short</ins> link and a <ins>yellkey.com/short</ins> link. 
 
-2. **Storing used strings:** Similarly, used strings should be stored per context. To generate unique nonces in a given context we need to remember already generated nonces. If a counter is used, we have the property that: the set of used strings in context x corresponds exactly to all ids <= c<sub>x</sub>, where c<sub>x</sub> is the counter per context. Abstraction function is:\
-used<sub>x</sub> = { represent(i) | 0 <= i < c<sub>x</sub> }, where represent is the function used to map from integer to nonce.
+2. **Storing used strings:** Similarly, used strings should be stored per context. To generate unique nonces in a given context we need to remember already generated nonces. If a counter is used, the abstraction function is:\
+used<sub>x</sub> = { represent(i) | 0 <= i < c<sub>x</sub> }, where represent is the function used to map from integer to nonce. So the used set is exactly one string per integer from 0 up to (but not including) the counter.
 
 3. **Words as nonces**\
 Advantage: increased readability, memorability for the user + very easy to verbally share.\
@@ -15,7 +15,7 @@ Modification:
     - *Add actions:* 
         - addWord(vocabulary: Vocabulary, newWord: String):\
         requires newWord not in vocabulary & vocabulary exists\
-        effects: adds newWord in vocab
+        effects: adds newWord to vocabulary
         - deleteWord(context: Context, word: String):\
         requires: context exists, word is in context.vocabulary, no context.used uses word\
         effects: removes word from context.vocabulary
@@ -23,7 +23,7 @@ Modification:
 
 # Synchronization Questions
 
-1. **Partial matching:** For generating a nonce, the sync needs just the base for the function, whereas for registering the link, it needs for the base and the targetUrl.
+1. **Partial matching:** For generating a nonce, the sync needs just the base for the function, whereas for registering, it needs for the base and the targetUrl.
 2. **Omitting names:** 
     - We can't omit field names that are different than their type name because then we can't disambiguate between two fields which have the same type (e.g Strings)
     - We can't omit field types because they inform system's behavior and relations between actions/state fields.
